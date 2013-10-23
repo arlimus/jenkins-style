@@ -1,0 +1,75 @@
+$spot1: #EF0072;
+$spot2: #A70050;
+$spot3: #60002E;
+$bg1:   #eeeeee;
+$bg2:   #cccccc;
+
+body {
+  background: $bg1;
+}
+
+a {
+  text-decoration: none !important;
+  color: $spot2 !important;
+}
+a:visited {
+  color: $spot3 !important;
+}
+a:hover {
+  color: $spot1 !important;
+}
+
+h1, h2 {
+  color: $spot1;
+}
+
+h3, h4, h5, h6 {
+  color: $spot3;
+}
+
+#top-panel {
+  background: none;
+  #login-field span a {
+    background: none;
+  }
+  td #searchform a {
+    background: none;
+  }
+  td > a {
+    background: url("http://www.microsoft-on-tour.de/images/logos/logo_telekom.png") 0 0 no-repeat;
+    background-size: 30px 30px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 5px 0 5px 5px;
+    img { display: none; }
+  }
+}
+
+#projectstatus {
+  background: #fff; 
+  tr:nth-of-type(odd) {
+    background-color: darken( $bg1, 10% );
+    :hover{ background-color: darken( $bg1, 20% ); }
+  }
+  tr:nth-of-type(even) {
+    background-color: lighten( $bg1, 10% );
+    :hover{ background-color: darken( $bg1, 20% ); }
+  }
+}
+
+#side-panel {
+  background-color: #fff; 
+}
+
+#main-panel {
+  background: #fff; 
+}
+
+#footer {
+  border-top: 1px solid $bg2; 
+}
+
+#view-message #description a img {
+  padding-right: 4px;
+}

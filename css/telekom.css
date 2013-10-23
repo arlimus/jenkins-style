@@ -4,12 +4,18 @@ body {
 a {
   text-decoration: none !important;
   color: #a70050 !important; }
+  a:visited {
+    color: #60002e !important; }
+  a:hover {
+    color: #ef0072 !important; }
 
-a:visited {
-  color: #60002e !important; }
-
-a:hover {
-  color: #ef0072 !important; }
+.bd li > a {
+  color: black !important; }
+  .bd li > a:hover {
+    background-color: #eeeeee;
+    color: #a70050 !important; }
+  .bd li > a.yuimenuitemlabel-selected {
+    background-color: #eeeeee; }
 
 h1, h2 {
   color: #ef0072; }

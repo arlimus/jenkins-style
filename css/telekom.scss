@@ -11,12 +11,23 @@ body {
 a {
   text-decoration: none !important;
   color: $spot2 !important;
+  &:visited {
+    color: $spot3 !important;
+  }
+  &:hover {
+    color: $spot1 !important;
+  }
 }
-a:visited {
-  color: $spot3 !important;
-}
-a:hover {
-  color: $spot1 !important;
+
+.bd li > a {
+  color: black !important;
+  &:hover {
+    background-color: $bg1;
+    color: $spot2 !important;
+  }
+  &.yuimenuitemlabel-selected {
+    background-color: $bg1;
+  }
 }
 
 h1, h2 {

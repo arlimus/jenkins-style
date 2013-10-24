@@ -10,12 +10,12 @@ body {
 
 a {
   text-decoration: none !important;
-  color: $spot2 !important;
+  color: $spot3 !important;
   &:visited {
-    color: $spot3 !important;
+    color: grayscale($spot1) !important;
   }
   &:hover {
-    color: $spot1 !important;
+    color: $spot2 !important;
   }
 }
 

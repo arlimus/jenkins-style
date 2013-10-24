@@ -3,11 +3,11 @@ body {
 
 a {
   text-decoration: none !important;
-  color: #a70050 !important; }
+  color: #60002e !important; }
   a:visited {
-    color: #60002e !important; }
+    color: #777777 !important; }
   a:hover {
-    color: #ef0072 !important; }
+    color: #a70050 !important; }
 
 .bd li > a {
   color: black !important; }

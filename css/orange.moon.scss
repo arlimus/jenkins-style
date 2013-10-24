@@ -1,9 +1,10 @@
-$spot1    : #FF6600;
-$spot2    : #CC5200;
-$spot3    : #803300;
-$bg1      : #000000;
+$spot1    : #FF944C;
+$spot2    : #FF6600;
+$spot3    : #CC5200;
+$bg1      : #262626;
 $bg2      : #777777;
 $selector : #eeeeee;
+
 
 body {
   background: $bg1;
@@ -57,7 +58,7 @@ h3, h4, h5, h6 {
     margin: 5px 0 5px 5px;
     // padding to left to indent the text content for teh width of the background image
     padding: 0 0 0 44px;
-    color: #FFAE34 !important;
+    color: $spot1 !important;
     
     img { display: none; }
 
@@ -90,9 +91,9 @@ h3, h4, h5, h6 {
 #footer {
   border-top: 1px solid $bg2; 
   a {
-    color: $spot2 !important;
+    color: $spot1 !important;
     &:hover {
-      color: $spot1 !important;
+      color: lighten( $spot1, 10% ) !important;
     }
   }
 }
